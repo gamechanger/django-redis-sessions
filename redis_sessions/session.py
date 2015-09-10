@@ -37,7 +37,7 @@ else:
         password=settings.SESSION_REDIS_PASSWORD,
     )
 
-if settings.SESSION_REDIS_WRAPPER:
+if settings.SESSION_REDIS_WRAPPER is not None:
     redis_server = settings.SESSION_REDIS_WRAPPER(redis_server)
 
 class SessionStore(SessionBase):
