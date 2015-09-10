@@ -9,14 +9,14 @@ packages = ['redis_sessions']
 
 
 setup(
-    name='django-redis-sessions',
+    name='gc-django-redis-sessions',
     version=__version__,
     description= "Redis Session Backend For Django",
     long_description=read("README.rst"),
     keywords='django, sessions,',
     author='Martin Rusev',
     author_email='martinrusev@live.com',
-    url='http://github.com/martinrusev/django-redis-sessions',
+    url='http://github.com/gamechanger/django-redis-sessions',
     license='BSD',
     packages=packages,
     zip_safe=False,
